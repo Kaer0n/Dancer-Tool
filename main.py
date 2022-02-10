@@ -7,8 +7,8 @@ logging.basicConfig(level=logging.INFO)
 
 def btn_clicked():
     bot_token = entry0.get()
-    user_token = entry1.get()
-    guild_id = entry2.get()
+    guild_id = entry1.get()
+    user_token = entry2.get()
     channel_id = entry3.get()
     time.sleep(0.2)
     window.destroy()
