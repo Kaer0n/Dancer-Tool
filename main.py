@@ -3,7 +3,7 @@ import logging
 import time, os
 from tkinter import *
 
-os.system("cls; clear && title Dancer - Weapon of Mass Destruction!")
+os.system("cls; clear && title [Dancer - Weapon of Mass Destruction!]")
 logging.basicConfig(level=logging.INFO)
 
 def btn_clicked():
