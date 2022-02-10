@@ -1,8 +1,9 @@
 from util.massban import *
 import logging
-import time
+import time, os
 from tkinter import *
 
+os.system("cls; clear && title Dancer - Weapon of Mass Destruction!")
 logging.basicConfig(level=logging.INFO)
 
 def btn_clicked():
@@ -17,7 +18,8 @@ def btn_clicked():
     ob1.ban_all(guild_id, bot_token) # executes ban method
 
 window = Tk()
-window.title('Dancer - Weapon of Mass Destruction')
+window.title('Dancer Interface')
+window.iconbitmap("./package/img6.ico")
 window.geometry("600x200")
 window.configure(bg = "#2b2b2b")
 canvas = Canvas(
