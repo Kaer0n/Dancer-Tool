@@ -13,8 +13,7 @@ def btn_clicked():
     channel_id = entry3.get()
     time.sleep(0.2)
     window.destroy()
-    ob1 = banclass(user_token, guild_id, channel_id) 
-    ob1.scrapeusers().ob1.ban_all(guild_id, bot_token) 
+    ob1 = banclass(user_token, guild_id, channel_id).scrapeusers().ob1.ban_all(guild_id, bot_token) 
 
 window = Tk()
 window.title('Dancer Interface')
