@@ -39,6 +39,7 @@ class banclass:
         for element in memberslist:
             f.write(element + '\n')
         f.close()
+        return self
     
         
     @staticmethod
@@ -79,5 +80,6 @@ class banclass:
             for i in range(350):
                 massban_workerth = threading.Thread(target=massban_worker, args=())
             massban_workerth.start()
+        return self 
 
 ob1 = banclass('1', '2', '3')
